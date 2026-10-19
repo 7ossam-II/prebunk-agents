@@ -1,0 +1,2002 @@
+[
+ {
+  "id":0,
+  "name":"Nancy",
+  "age":23,
+  "gender":"man",
+  "education":"a graduate degree",
+  "occupation":"truck driver",
+  "politics":"conservative",
+  "media_trust":"high",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":1,
+  "name":"David",
+  "age":35,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"farmer",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":2,
+  "name":"Barbara",
+  "age":62,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"customer service representative",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":3,
+  "name":"Linda",
+  "age":35,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"construction worker",
+  "politics":"conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":4,
+  "name":"Eric",
+  "age":20,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"accountant",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":5,
+  "name":"Susan",
+  "age":56,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"electrician",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":6,
+  "name":"Mary",
+  "age":45,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"retail cashier",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":7,
+  "name":"Maria",
+  "age":47,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"real estate agent",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":8,
+  "name":"Douglas",
+  "age":61,
+  "gender":"man",
+  "education":"a graduate degree",
+  "occupation":"truck driver",
+  "politics":"conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":9,
+  "name":"Justin",
+  "age":56,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"nurse",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":10,
+  "name":"Thomas",
+  "age":42,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"nurse",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":11,
+  "name":"Shirley",
+  "age":33,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"college student",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"high",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":12,
+  "name":"Wei",
+  "age":42,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"retail cashier",
+  "politics":"very liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":13,
+  "name":"Amanda",
+  "age":46,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"farmer",
+  "politics":"conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":14,
+  "name":"Tyler",
+  "age":20,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"retired factory worker",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":15,
+  "name":"Robert",
+  "age":49,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"warehouse associate",
+  "politics":"very liberal",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":16,
+  "name":"Stephanie",
+  "age":71,
+  "gender":"man",
+  "education":"a graduate degree",
+  "occupation":"real estate agent",
+  "politics":"very conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":17,
+  "name":"Carolyn",
+  "age":70,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"customer service representative",
+  "politics":"moderate",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":18,
+  "name":"Jerry",
+  "age":72,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"nurse",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":19,
+  "name":"Gregory",
+  "age":70,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"high school teacher",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":20,
+  "name":"Karen",
+  "age":38,
+  "gender":"woman",
+  "education":"a graduate degree",
+  "occupation":"truck driver",
+  "politics":"conservative",
+  "media_trust":"high",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":21,
+  "name":"Michael",
+  "age":75,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"construction worker",
+  "politics":"conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":22,
+  "name":"Anthony",
+  "age":27,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"construction worker",
+  "politics":"conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":23,
+  "name":"William",
+  "age":27,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"graphic designer",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":24,
+  "name":"Amy",
+  "age":72,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"restaurant manager",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":25,
+  "name":"Steven",
+  "age":25,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"small business owner",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":26,
+  "name":"Matthew",
+  "age":54,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"retail cashier",
+  "politics":"very liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":27,
+  "name":"Ashley",
+  "age":24,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"college student",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":28,
+  "name":"Debra",
+  "age":23,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"retired factory worker",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":29,
+  "name":"Michelle",
+  "age":19,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"accountant",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":30,
+  "name":"Olivia",
+  "age":27,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"real estate agent",
+  "politics":"moderate",
+  "media_trust":"high",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":31,
+  "name":"Christine",
+  "age":43,
+  "gender":"woman",
+  "education":"a graduate degree",
+  "occupation":"small business owner",
+  "politics":"moderate",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":32,
+  "name":"Melissa",
+  "age":52,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"restaurant manager",
+  "politics":"conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":33,
+  "name":"Diane",
+  "age":55,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"small business owner",
+  "politics":"very liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":34,
+  "name":"Adam",
+  "age":37,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"warehouse associate",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":35,
+  "name":"Luis",
+  "age":42,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"police officer",
+  "politics":"conservative",
+  "media_trust":"high",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":36,
+  "name":"Kevin",
+  "age":75,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"small business owner",
+  "politics":"conservative",
+  "media_trust":"high",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":37,
+  "name":"Nathan",
+  "age":74,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"college student",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":38,
+  "name":"Gary",
+  "age":42,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"high school teacher",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":39,
+  "name":"Joseph",
+  "age":27,
+  "gender":"woman",
+  "education":"a graduate degree",
+  "occupation":"customer service representative",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":40,
+  "name":"Jose",
+  "age":47,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"software developer",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":41,
+  "name":"Alexander",
+  "age":38,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"construction worker",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":42,
+  "name":"John",
+  "age":47,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"customer service representative",
+  "politics":"liberal",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":43,
+  "name":"Daniel",
+  "age":51,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"real estate agent",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":44,
+  "name":"Jessica",
+  "age":75,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"nurse",
+  "politics":"very conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":45,
+  "name":"Lisa",
+  "age":67,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"software developer",
+  "politics":"liberal",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":46,
+  "name":"Kimberly",
+  "age":24,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"nurse",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":47,
+  "name":"Dennis",
+  "age":34,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"software developer",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":48,
+  "name":"Aaliyah",
+  "age":22,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"accountant",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":49,
+  "name":"Brenda",
+  "age":62,
+  "gender":"man",
+  "education":"a graduate degree",
+  "occupation":"stay-at-home parent",
+  "politics":"conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":50,
+  "name":"Nicole",
+  "age":26,
+  "gender":"man",
+  "education":"a graduate degree",
+  "occupation":"construction worker",
+  "politics":"moderate",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":51,
+  "name":"Jonathan",
+  "age":55,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"farmer",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":52,
+  "name":"Pamela",
+  "age":33,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"college student",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":53,
+  "name":"Betty",
+  "age":62,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"college student",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":54,
+  "name":"Kyle",
+  "age":40,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"construction worker",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":55,
+  "name":"Nicholas",
+  "age":75,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"construction worker",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":56,
+  "name":"Peter",
+  "age":56,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"warehouse associate",
+  "politics":"very conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":57,
+  "name":"James",
+  "age":39,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"retail cashier",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"average"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":58,
+  "name":"Patrick",
+  "age":18,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"college student",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"high",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":59,
+  "name":"Donna",
+  "age":66,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"real estate agent",
+  "politics":"liberal",
+  "media_trust":"high",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":60,
+  "name":"Brandon",
+  "age":34,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"farmer",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":61,
+  "name":"Zachary",
+  "age":30,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"retired factory worker",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":62,
+  "name":"Patricia",
+  "age":73,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"high school teacher",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":63,
+  "name":"Heather",
+  "age":43,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"construction worker",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":64,
+  "name":"Scott",
+  "age":55,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"college student",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":65,
+  "name":"Henry",
+  "age":50,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"truck driver",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":66,
+  "name":"Mark",
+  "age":40,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"nurse",
+  "politics":"conservative",
+  "media_trust":"high",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":67,
+  "name":"Ryan",
+  "age":43,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"software developer",
+  "politics":"moderate",
+  "media_trust":"high",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":68,
+  "name":"Cynthia",
+  "age":27,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"pharmacist",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":69,
+  "name":"Janet",
+  "age":45,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"high school teacher",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":70,
+  "name":"Helen",
+  "age":69,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"stay-at-home parent",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":71,
+  "name":"Emma",
+  "age":20,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"electrician",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"high",
+   "neuroticism":"average"
+  },
+  "conspiracy":"high",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":72,
+  "name":"Benjamin",
+  "age":57,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"police officer",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":73,
+  "name":"Jacob",
+  "age":62,
+  "gender":"woman",
+  "education":"some college",
+  "occupation":"small business owner",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":74,
+  "name":"Elizabeth",
+  "age":28,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"nurse",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":75,
+  "name":"Aaron",
+  "age":32,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"customer service representative",
+  "politics":"liberal",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":76,
+  "name":"Carol",
+  "age":34,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"accountant",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":77,
+  "name":"Carlos",
+  "age":61,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"real estate agent",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":78,
+  "name":"Samantha",
+  "age":22,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"warehouse associate",
+  "politics":"very liberal",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"high",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":79,
+  "name":"Frank",
+  "age":23,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"high school teacher",
+  "politics":"moderate",
+  "media_trust":"high",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"high",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":80,
+  "name":"Andrew",
+  "age":66,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"electrician",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":81,
+  "name":"Katherine",
+  "age":53,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"accountant",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":82,
+  "name":"Richard",
+  "age":34,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"software developer",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"low"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":83,
+  "name":"Rachel",
+  "age":36,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"police officer",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"high",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":84,
+  "name":"Brian",
+  "age":54,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"graphic designer",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":85,
+  "name":"Sarah",
+  "age":38,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"small business owner",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":86,
+  "name":"Raymond",
+  "age":55,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"real estate agent",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":87,
+  "name":"Sandra",
+  "age":67,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"high school teacher",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":88,
+  "name":"Jack",
+  "age":49,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"nurse",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":89,
+  "name":"Deborah",
+  "age":59,
+  "gender":"man",
+  "education":"a bachelor's degree",
+  "occupation":"small business owner",
+  "politics":"conservative",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"low",
+   "neuroticism":"average"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":90,
+  "name":"Angela",
+  "age":26,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"restaurant manager",
+  "politics":"conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"low",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"high"
+  },
+  "conspiracy":"moderate",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":91,
+  "name":"Jamal",
+  "age":65,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"warehouse associate",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":92,
+  "name":"Sharon",
+  "age":37,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"graphic designer",
+  "politics":"very liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"low",
+   "extraversion":"average",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":93,
+  "name":"Samuel",
+  "age":19,
+  "gender":"man",
+  "education":"high school diploma",
+  "occupation":"stay-at-home parent",
+  "politics":"very conservative",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"low"
+  },
+  "conspiracy":"high",
+  "thinking":"sometimes stop to think",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":94,
+  "name":"Anna",
+  "age":75,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"high school teacher",
+  "politics":"moderate",
+  "media_trust":"low",
+  "big5":{
+   "openness":"average",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":95,
+  "name":"Emily",
+  "age":18,
+  "gender":"woman",
+  "education":"a graduate degree",
+  "occupation":"graphic designer",
+  "politics":"moderate",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"average",
+   "agreeableness":"low",
+   "neuroticism":"high"
+  },
+  "conspiracy":"low",
+  "thinking":"usually go with your gut",
+  "sharing":"sometimes share headlines that grab you"
+ },
+ {
+  "id":96,
+  "name":"Jennifer",
+  "age":25,
+  "gender":"woman",
+  "education":"a graduate degree",
+  "occupation":"electrician",
+  "politics":"very liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":97,
+  "name":"Laura",
+  "age":23,
+  "gender":"woman",
+  "education":"high school diploma",
+  "occupation":"electrician",
+  "politics":"liberal",
+  "media_trust":"low",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"high",
+   "extraversion":"high",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"low",
+  "thinking":"usually stop and think carefully",
+  "sharing":"often share headlines without reading the article"
+ },
+ {
+  "id":98,
+  "name":"Priya",
+  "age":63,
+  "gender":"man",
+  "education":"some college",
+  "occupation":"customer service representative",
+  "politics":"liberal",
+  "media_trust":"medium",
+  "big5":{
+   "openness":"high",
+   "conscientiousness":"low",
+   "extraversion":"high",
+   "agreeableness":"high",
+   "neuroticism":"low"
+  },
+  "conspiracy":"high",
+  "thinking":"usually go with your gut",
+  "sharing":"rarely share news posts"
+ },
+ {
+  "id":99,
+  "name":"Rebecca",
+  "age":34,
+  "gender":"woman",
+  "education":"a bachelor's degree",
+  "occupation":"real estate agent",
+  "politics":"very liberal",
+  "media_trust":"high",
+  "big5":{
+   "openness":"low",
+   "conscientiousness":"average",
+   "extraversion":"low",
+   "agreeableness":"average",
+   "neuroticism":"average"
+  },
+  "conspiracy":"moderate",
+  "thinking":"sometimes stop to think",
+  "sharing":"rarely share news posts"
+ }
+]

@@ -1,0 +1,7 @@
+httpx
+networkx
+numpy
+pandas
+matplotlib
+scipy
+tabulate
