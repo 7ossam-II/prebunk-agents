@@ -4,9 +4,19 @@
 
 **Why it matters.** LLM agent simulations (OASIS, MiroFish, POSIM) now reproduce how rumors spread online and are starting to be used to test interventions such as fact-checks, accuracy prompts and debunking. Prebunking is psychology's best-supported defense against misinformation in humans. Rule-based network models (Pilditch, Roozenbeek, Madsen & van der Linden, 2022) predict herd-immunity effects when the right users are inoculated before beliefs consolidate, and RumorSphere (Liu et al., 2025) reports that pre-bunking flattens the rumor curve in a hybrid simulation where most agents follow fixed rules. Neither tests *who* should be prebunked, *when*, and whether never-prebunked agents are protected, with agents that all read the actual message. This pilot does.
 
-![Pilot results](figures/pilot_overview.png)
+## Related work
+
+- **Gao Mengjiao & Wu Shufang (2026)**, 基于靶向人群干预的网络谣言传播控制及智能体仿真研究, *图书情报工作* (online first 2026-09-15): C-SINCR model plus 40 GPT-4 agents, with interventions targeted at user types. We target psychological inoculation by network position and timing, with matched replications, and measure protection of never-prebunked agents.
+- **Li, Xu, Zhang & Malthouse (2024)**, LLM-driven multi-agent simulation for news diffusion under different network structures, arXiv:2410.13909: blocks influential agents and announces accuracy; no inoculation.
+- **Liu et al. (2025)**, RumorSphere, arXiv:2509.02172: hybrid LLM and rule-based agents; pre-bunking flattens the rumor curve; no targeting, coverage or indirect-protection analysis. Here every agent is an LLM reading the message.
+- **Ma Yanfang, Liu Danyang, Li Zhen & Li Zongmin (2025)**, SEICR rumor model with bidirectional spreader conversion, *系统科学与数学*: equation-based, no agents reading the message.
+- **Han Jiayan & Cao Lianying (2026)**, SICMR model with official debunking, *海南师范大学学报(自然科学版)* 39(2): equation-based, and tests debunking rather than prebunking.
+- **Zhou Xiaoli (2025)**, Zhengzhou University master's thesis: rule-based agent model with intentional rumor spreaders and debunking timing; we vary prebunking timing with LLM agents.
+- **Pilditch et al. (2022)** and **Yang & Cao (2025)**: herd immunity with rule-based agents; we test whether the same indirect protection appears when agents are LLMs.
 
 ## Results (pilot, DeepSeek `deepseek-flash`, 100 agents)
+
+![Pilot results](figures/pilot_overview.png)
 
 Each condition was run on the same 9 cascades (3 networks x 3 false headlines, same seed users), so conditions are compared pairwise.
 
