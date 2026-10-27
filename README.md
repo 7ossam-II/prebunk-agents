@@ -18,25 +18,25 @@
 
 ![Pilot results](figures/pilot_overview.png)
 
-Each condition was run on the same 9 cascades (3 networks x 3 false headlines, same seed users), so conditions are compared pairwise.
+Each condition was run on the same 9 cascades (3 networks x 3 false headlines, same seed users), so conditions are compared pairwise. Effects are Hodges-Lehmann estimates of the paired difference with a paired bootstrap 95% CI (10,000 resamples). p values are Wilcoxon signed-rank, with Holm-adjusted p across the five reach tests and, separately, across the three indirect-protection tests. One cascade (network 1, headline F) never spread beyond its seed users in any condition. Wilcoxon drops zero differences, so the reach tests against no prebunking rest on 8 cascades (fewer for the head-to-head comparisons, where more cascades tie).
 
 | Finding | Evidence |
 |---|---|
-| Prebunking the 30% best-connected agents before the rumor appeared cut its reach from **22% to 9%** of agents (-59%) | -12.9 points, 95% CI [-19.8, -6.0], lower in 8/9 cascades, Wilcoxon p = .008 |
-| Prebunking 30% random agents cut reach to 13% (-41%) | -9.0 points, 95% CI [-16.1, -1.9], 7/9, p = .039 |
-| **Timing matters:** prebunking the same hubs from round 3, after the rumor started, cut reach only to 16% | early beat late, never worse in 9/9, p = .016 |
-| **Indirect protection:** agents who were never prebunked saw the rumor far less often (70% without prebunking vs 29% with hubs prebunked) | lower in 9/9 cascades, p = .004; once exposed they shared at a similar rate (20% vs 15%), so the protection came mainly from not being reached |
-| Prebunked agents shared less once exposed | 10.4% vs 18.8% for non-prebunked agents; many explicitly cite "the conspiracy framing the video warned about" |
-| **Knowing is not doing:** agents with high conspiracy mentality labeled 90% of MIST fakes correctly, yet shared the false headline 57% of the time when friends did (low: 3%) | MIST score still predicts sharing (point-biserial r = -0.37) |
-| Hubs vs random prebunking | Suggestive only: -3.9 points, p = .06, lower in 5/9 |
+| Prebunking the 30% best-connected agents before the rumor appeared cut its reach from **22% to 9%** of agents (-59%) | -12.5 points, 95% CI [-20.0, -7.0], lower in 8/9 cascades, Wilcoxon p = .008, Holm p = .039 |
+| Prebunking 30% random agents: reach fell to 13% on average (-41%), but this **does not survive correction** for multiple tests | -9.0 points, 95% CI [-15.0, -1.5], lower in 7/9, p = .039, Holm p = .078 |
+| **Timing matters:** prebunking the same hubs from round 3, after the rumor started, cut reach only to 16% | late minus early +8.0 points, 95% CI [+1.0, +11.5], early never worse (better in 7/9, tied in 2), p = .016, Holm p = .047. Late hubs vs none: -5.0 points [-10.0, -2.0], Holm p = .039 |
+| **Indirect protection:** agents who were never prebunked saw the rumor far less often (70% without prebunking vs 29% with hubs prebunked) | -42.4 points, 95% CI [-66.6, -16.8], lower in 9/9 cascades, p = .004, Holm p = .012. Late hubs: -10.5 points [-39.7, -6.7], Holm p = .012. Random: -26.0 points [-42.9, -2.0], p = .055, not significant. Once exposed, the same agents (non-seed, outside the hub set) shared at a similar rate in both conditions (16% vs 15% of decisions), so the protection came mainly from not being reached |
+| Prebunked agents shared less once exposed | 10.4% of decisions by agents prebunked at the time vs 18.8% by agents who were not (all four conditions pooled). Descriptive only: these pool decisions from different agents, and 81% of the prebunked decisions are by hubs. Many explicitly cite "the conspiracy framing the video warned about" |
+| **Knowing is not doing:** agents with high conspiracy mentality who scored a perfect 20/20 on the MIST still shared the false headline 47.5% of the time once exposed (low conspiracy mentality, also 20/20: 3%) | 17 agents, 120 decisions; 11 of 17 shared at least once. Higher MIST scores still predict less sharing: OR 0.47 per MIST point, 95% CI [0.29, 0.76], p = .002 (GEE logistic, agent clusters); OR 0.50, p = .045 with conspiracy mentality as covariate. But 85 of 100 agents scored 20/20, so this link rests on the 15 agents who missed at least one item (8 of them high in conspiracy mentality) |
+| Hubs vs random prebunking | Suggestive only: -3.5 points, 95% CI [-7.0, 0.0], lower in 5/9 (4 tied), p = .062, Holm p = .078. Underpowered, not a null: with 5 untied cascades, .062 is the smallest p the test can give |
 
 Full tables: [`results/pilot/summary.md`](results/pilot/summary.md).
 
 ## What did not work, and what it means
 
-- **Out of the box, agents almost never spread misinformation.** In a first smoke test agents shared the false headline 7% of the time and it died after the seed users. Adding three news-psychology traits to the personas (conspiracy mentality, intuitive vs analytic thinking, sharing without reading) raised sharing to 21%, with the gradient human studies predict (low 3%, moderate 20%, high 57% conspiracy mentality). The traits were added once, after that smoke test, and are reported as part of the method.
+- **Out of the box, agents almost never spread misinformation.** In a first smoke test agents shared the false headline 7% of the time and it died after the seed users. Adding three news-psychology traits to the personas (conspiracy mentality, intuitive vs analytic thinking, sharing without reading) fixed this: in the full pilot, agents in the no-prebunking condition shared the false headline in 20% of decisions, with the gradient human studies predict (low 3%, moderate 20%, high 57% conspiracy mentality). The traits were added once, after that smoke test, and are reported as part of the method.
 - **The MIST-20 is at ceiling for LLM agents:** 96% of fakes spotted and 100% of real headlines accepted, against 66% and 69% for 1,516 U.S. adults (YouGov, 2023). The items have been public since 2023 and are likely in training data. LLM-based social simulations therefore risk underestimating misinformation spread unless agents are calibrated against human data.
-- **True headlines barely spread in any condition** (3-5% of agents, close to the 3% who seeded them), even though agents believed them more than the false ones (5.2 vs 3.4 on a 7-point scale). This mirrors the finding that false news travels farther than true news (Vosoughi, Roy & Aral, 2018), but it means this pilot cannot test whether prebunking makes agents reject true news.
+- **True headlines barely spread in any condition** (3-4% of agents on average, close to the 3% who seeded them), even though agents believed them more than the false ones (5.2 vs 3.4 on a 7-point scale). This mirrors the finding that false news travels farther than true news (Vosoughi, Roy & Aral, 2018), but it means this pilot cannot test whether prebunking makes agents reject true news.
 
 ## Design
 
@@ -67,7 +67,7 @@ The script checks the key and model before spending anything, runs DeepSeek in n
 
 ## Limits of this pilot
 
-One model, 100 agents, 3 networks, 3 false headlines that the model has probably seen, one prebunk text, English only. The prebunk sits in the prebunked agents' instructions, so their own lower sharing is partly instruction following; the indirect protection of never-prebunked agents is a network effect and does not have that problem. Agent behavior is simulated, so results describe LLM agent societies; how closely they track people is measured, not assumed.
+One model, 100 agents, 3 networks, 3 false headlines that the model has probably seen, one prebunk text, English only. The 9 cascades are not independent: the 3 headlines on each network share its agents and graph, and the cascade-level tests treat them as if they were independent. Three networks are too few for a network-level test; as a direction check, averaging the headlines within each network, every comparison points the same way in all 3 networks. The prebunk sits in the prebunked agents' instructions, so their own lower sharing is partly instruction following; the indirect protection of never-prebunked agents is a network effect and does not have that problem. Agent behavior is simulated, so results describe LLM agent societies; how closely they track people is measured, not assumed.
 
 ## Next steps for the thesis
 
