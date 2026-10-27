@@ -158,26 +158,35 @@ def main(run):
                                                         ("hubs30", "random30"), ("hubs30_late", "hubs30")) if x in piv and y in piv])
     dead = [f"rep {r}, headline {i}" for r, i in piv.index[(piv == 100 * a["seeds"] / a["agents"]).all(axis=1)]]
 
-    # 3. Indirect protection: agents who were never prebunked (and did not seed the rumor)
+    # 3. Indirect protection: agents who were never prebunked (and did not seed the rumor).
+    # Definition A: the unprotected agents of each condition (without prebunking, every non-seed agent, hubs included).
+    # Definition B, like-for-like: the same agents in every condition, those in neither the hub set nor the random set.
     herd, outside = [], {}
     for rep in sorted(int(r) for r in casc.rep.unique()):
         for item in fake_items:
             g, seeds, sets = protection_sets(rep, item, a["agents"], a["frac"], a["seeds"])
             outside[(rep, item)] = {v for v in g.nodes if v not in sets["hubs30"] and v not in seeds}
+            same = [v for v in g.nodes if v not in sets["hubs30"] and v not in sets["random30"] and v not in seeds]
             for c in conds:
                 dd = dec[(dec.rep == rep) & (dec["item"] == item) & (dec.condition == c)]
                 ev, sh = set(dd.agent), set(dd[dd.share == 1].agent)
                 unprot = [v for v in g.nodes if v not in sets[c] and v not in seeds]
                 herd.append({"rep": rep, "item": item, "condition": c,
                              "exposed": 100 * np.mean([v in ev for v in unprot]),
-                             "shared": 100 * np.mean([v in sh for v in unprot])})
+                             "shared": 100 * np.mean([v in sh for v in unprot]),
+                             "exposed_same": 100 * np.mean([v in ev for v in same]), "n_same": len(same)})
     herd = pd.DataFrame(herd)
     herd_tab = herd.groupby("condition").agg(exposed=("exposed", "mean"), exposed_ci=("exposed", ci95),
                                              shared=("shared", "mean")).reindex(conds).round(1)
     herd_tab.index = [COND[c][0] for c in herd_tab.index]
-    hpiv = herd.pivot_table(index=["rep", "item"], columns="condition", values="exposed")
-    hnet = herd.pivot_table(index="rep", columns="condition", values="exposed")
-    herd_tests = paired_tests(hpiv, hnet, [(x, "control") for x in ("hubs30", "hubs30_late", "random30") if x in hpiv and "control" in hpiv])
+    herd_same_tab = herd.groupby("condition").agg(saw_it_pct=("exposed_same", "mean"), ci95=("exposed_same", ci95)).reindex(conds).round(1)
+    herd_same_tab.index = [COND[c][0] for c in herd_same_tab.index]
+    pairs_h = [(x, "control") for x in ("hubs30", "hubs30_late", "random30") if x in conds and "control" in conds]
+
+    def herd_paired(col):
+        return paired_tests(herd.pivot_table(index=["rep", "item"], columns="condition", values=col),
+                            herd.pivot_table(index="rep", columns="condition", values=col), pairs_h)
+    herd_tests, herd_tests_same = herd_paired("exposed"), herd_paired("exposed_same")
 
     # Share rate once exposed, same agents in both conditions: non-seed agents outside the 30% hub set
     lf = fk[fk.condition.isin(["control", "hubs30"])]
@@ -329,9 +338,16 @@ def main(run):
          f"Never spread beyond its {a['seeds']} seed users in any condition, so a zero difference in every comparison: "
          f"{'; '.join(dead) if dead else 'none'}.", "",
          "## 3. Indirect protection: agents who were never prebunked and did not seed the rumor", "",
+         "Definition A (README headline and figure panel B): the never-prebunked, non-seed agents of each condition. "
+         "Without prebunking that is every non-seed agent, hubs included.", "",
          herd_tab.rename(columns={"exposed": "saw_it_pct", "exposed_ci": "ci95", "shared": "shared_it_pct"}).to_markdown(), "",
-         f"Paired tests on saw_it_pct (columns as in section 2; Holm-adjusted across these {len(herd_tests)} tests):", "",
+         f"Paired tests on saw_it_pct, definition A (columns as in section 2; Holm-adjusted across these {len(herd_tests)} tests):", "",
          herd_tests.to_markdown(index=False), "",
+         "Definition B, like-for-like: the same agents in every condition, those in neither the hub set nor the random set "
+         f"and not seeds ({herd.n_same.min()}-{herd.n_same.max()} agents per cascade).", "",
+         herd_same_tab.to_markdown(), "",
+         f"Paired tests on saw_it_pct, definition B (Holm-adjusted across these {len(herd_tests_same)} tests):", "",
+         herd_tests_same.to_markdown(index=False), "",
          "Share rate once exposed, same agents in both conditions (false headlines; non-seed agents outside the "
          f"{a['frac']:.0%} hub set of their network). share_rate_pct is per decision (an agent may reconsider up to "
          f"{a['max_evals']} times); ever_shared_pct is per exposed agent and cascade.", "",
@@ -361,8 +377,11 @@ def main(run):
           f"- The {n_casc} cascades are not independent: they come from {a['reps']} networks, and the {len(fake_items)} headlines "
           "on one network share its agents and graph. The cascade-level tests treat them as independent. "
           f"{a['reps']} networks are too few for a network-level test, so by_network is a direction check only.",
-          "- Holm adjustment is within each family (the reach tests in section 2, the indirect-protection tests in section 3), "
-          "not across the whole report.", ""]
+          "- Holm adjustment is within each family (the reach tests in section 2, each definition's indirect-protection tests "
+          "in section 3), not across the whole report.",
+          "- Indirect protection depends on the definition (section 3). Definition A counts the hubs in the no-prebunking "
+          "baseline but not in the hub condition, so it mixes the network effect with who is counted. Definition B compares "
+          "the same agents and is the stricter test.", ""]
     open(os.path.join(d, "summary.md"), "w", encoding="utf-8").write("\n".join(L))
     print("\n".join(L))
     print("figure:", fig_path)

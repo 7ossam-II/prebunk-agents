@@ -33,6 +33,8 @@ Never spread beyond its 3 seed users in any condition, so a zero difference in e
 
 ## 3. Indirect protection: agents who were never prebunked and did not seed the rumor
 
+Definition A (README headline and figure panel B): the never-prebunked, non-seed agents of each condition. Without prebunking that is every non-seed agent, hubs included.
+
 |                                   |   saw_it_pct |   ci95 |   shared_it_pct |
 |:----------------------------------|-------------:|-------:|----------------:|
 | No prebunking                     |         70.2 |   18.5 |            19.6 |
@@ -40,13 +42,30 @@ Never spread beyond its 3 seed users in any condition, so a zero difference in e
 | 30% hubs prebunked                |         29   |   17.8 |             5.1 |
 | 30% hubs prebunked late (round 3) |         53.2 |   22.6 |             9.6 |
 
-Paired tests on saw_it_pct (columns as in section 2; Holm-adjusted across these 3 tests):
+Paired tests on saw_it_pct, definition A (columns as in section 2; Holm-adjusted across these 3 tests):
 
 | comparison                                         |   hl_diff_pts | ci95_boot      | lower_in   |   n_eff |   wilcoxon_p |   holm_p | by_network          | networks_lower   |
 |:---------------------------------------------------|--------------:|:---------------|:-----------|--------:|-------------:|---------:|:--------------------|:-----------------|
 | 30% hubs prebunked vs no prebunking                |         -42.4 | [-66.6, -16.8] | 9/9        |       9 |       0.0039 |    0.012 | -69.6, -13.8, -40.1 | 3/3              |
 | 30% hubs prebunked late (round 3) vs no prebunking |         -10.5 | [-39.7, -6.7]  | 9/9        |       9 |       0.0039 |    0.012 | -10.4, -8.3, -32.2  | 3/3              |
 | 30% random users prebunked vs no prebunking        |         -26   | [-42.9, -2.0]  | 7/9        |       9 |       0.055  |    0.055 | -46.3, -5.4, -20.2  | 3/3              |
+
+Definition B, like-for-like: the same agents in every condition, those in neither the hub set nor the random set and not seeds (45-49 agents per cascade).
+
+|                                   |   saw_it_pct |   ci95 |
+|:----------------------------------|-------------:|-------:|
+| No prebunking                     |         65.5 |   18.9 |
+| 30% random users prebunked        |         41.5 |   23.2 |
+| 30% hubs prebunked                |         29.6 |   18   |
+| 30% hubs prebunked late (round 3) |         51.6 |   21.7 |
+
+Paired tests on saw_it_pct, definition B (Holm-adjusted across these 3 tests):
+
+| comparison                                         |   hl_diff_pts | ci95_boot      | lower_in   |   n_eff |   wilcoxon_p |   holm_p | by_network         | networks_lower   |
+|:---------------------------------------------------|--------------:|:---------------|:-----------|--------:|-------------:|---------:|:-------------------|:-----------------|
+| 30% hubs prebunked vs no prebunking                |         -37.1 | [-59.5, -13.3] | 8/9        |       8 |       0.0078 |    0.023 | -62.6, -7.5, -37.8 | 3/3              |
+| 30% hubs prebunked late (round 3) vs no prebunking |          -7.8 | [-36.6, -3.1]  | 8/9        |       8 |       0.0078 |    0.023 | -8.6, -3.4, -29.6  | 3/3              |
+| 30% random users prebunked vs no prebunking        |         -27.4 | [-41.7, -2.1]  | 7/9        |       8 |       0.039  |    0.039 | -45.0, -5.5, -21.5 | 3/3              |
 
 Share rate once exposed, same agents in both conditions (false headlines; non-seed agents outside the 30% hub set of their network). share_rate_pct is per decision (an agent may reconsider up to 3 times); ever_shared_pct is per exposed agent and cascade.
 
@@ -118,4 +137,5 @@ Decision-level point-biserial r = -0.37, cluster bootstrap 95% CI [-0.50, -0.23]
 ## 8. Caveats
 
 - The 9 cascades are not independent: they come from 3 networks, and the 3 headlines on one network share its agents and graph. The cascade-level tests treat them as independent. 3 networks are too few for a network-level test, so by_network is a direction check only.
-- Holm adjustment is within each family (the reach tests in section 2, the indirect-protection tests in section 3), not across the whole report.
+- Holm adjustment is within each family (the reach tests in section 2, each definition's indirect-protection tests in section 3), not across the whole report.
+- Indirect protection depends on the definition (section 3). Definition A counts the hubs in the no-prebunking baseline but not in the hub condition, so it mixes the network effect with who is counted. Definition B compares the same agents and is the stricter test.
