@@ -14,6 +14,7 @@ import time
 
 import pandas as pd
 
+from pilot.headlines import FEED_ITEMS, FRESH_IDS
 from pilot.items import CASCADE_IDS, ITEMS
 from pilot.llm import LLM, FatalAPIError
 from pilot.personas import make_personas
@@ -60,7 +61,10 @@ async def main(a):
             return
 
         conds = a.conditions.split(",") if a.conditions else list(CONDITIONS)
-        items = a.items.split(",") if a.items else CASCADE_IDS
+        items = (FRESH_IDS if a.items == "fresh" else a.items.split(",")) if a.items else CASCADE_IDS
+        unknown = [i for i in items if i not in FEED_ITEMS]
+        if unknown:
+            sys.exit(f"Unknown headline id(s): {', '.join(unknown)}")
         jobs = []
         for rep in range(a.reps):
             g = build_graph(a.agents, rep)
@@ -94,7 +98,7 @@ if __name__ == "__main__":
     p.add_argument("--temperature", type=float, default=0.7)
     p.add_argument("--concurrency", type=int, default=16)
     p.add_argument("--conditions", default="")
-    p.add_argument("--items", default="")
+    p.add_argument("--items", default="", help="comma-separated headline ids, or 'fresh' for pilot/headlines.py")
     p.add_argument("--calibrate", action="store_true", help="only run the MIST-20 and compare agents with humans")
     try:
         asyncio.run(main(p.parse_args()))

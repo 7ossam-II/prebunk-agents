@@ -4,6 +4,7 @@ import random
 
 import networkx as nx
 
+from .headlines import FEED_ITEMS
 from .items import ITEMS, MIST20
 from .prompts import feed_prompt, mist_prompt, parse_json, system_prompt
 
@@ -54,7 +55,7 @@ async def administer_mist(llm, personas):
 
 async def run_cascade(llm, g, personas, item_id, cond, rep, rounds, n_seeds, frac, max_evals):
     who, start = CONDITIONS[cond]
-    item = ITEMS[item_id]
+    item = FEED_ITEMS[item_id]
     hubs = hub_set(g, frac)
     rng = random.Random(f"{rep}-{item_id}")  # same seeds across conditions (common random numbers)
     non_hubs = sorted(v for v in g.nodes if v not in hubs)
